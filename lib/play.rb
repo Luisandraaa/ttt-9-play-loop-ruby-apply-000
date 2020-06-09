@@ -36,3 +36,7 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  turns = 0
+  until turns == 9
+    puts "Please enter 1-9:"
